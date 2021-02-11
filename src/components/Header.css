@@ -1,0 +1,23 @@
+ul {
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;
+	margin: 0px;
+	padding: 12px;
+	background-color: rgb(129, 2, 2);
+	overflow: hidden;
+}
+li .nav {
+	color: white;
+	padding: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+li .nav:hover {
+	background-color: rgb(99, 3, 3);
+}
+
+.selected {
+	background-color: rgb(99, 3, 3);
+}
